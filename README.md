@@ -1,12 +1,22 @@
-# React + Vite
+# Greeting Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Tailwind app to generate personalized greeting cards, preview, and download as image.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload or use default card background
+- Fill recipient, message, and sender
+- Message auto-wraps to multiple lines (max 150 chars)
+- Live card preview
+- Download as PNG
+- Input validation (cannot preview if empty)
+- Modular, tested, and responsive
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/greeting-card.git
+cd greeting-card
+npm install
+npm run dev
+```
